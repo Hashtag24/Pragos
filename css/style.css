@@ -1,0 +1,1022 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 20:44:17 янв 13, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:40:55 июн 24, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+:focus {
+	outline: 0;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {height: 100%}
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {margin: 0 0 18px}
+img {
+	border: none;
+}
+input {vertical-align: middle}
+
+#wrapper {
+
+	width: 1000px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+
+	height: 70px;
+	background: #f3f3f3;
+	width: 803px;
+	float: right;
+}
+
+.adress_0 {
+	
+	float: left;
+	width: 30x;
+	margin-top: 15px;
+	margin-left: 300px;
+	position: relative;
+	font-family: cambria;
+	font-size: 15px;
+
+}
+.adress_1 {
+	
+	float: left;
+	width: 190px;
+	margin-top: 33px;
+	position: relative;
+	font-family: cambria;
+	font-size: 15px;
+
+}
+
+.phone_0 {
+	
+	float: right;
+	width: 239px;
+	margin-top: 15px;
+	margin-left: -239px;
+	position: relative;
+	font-family: cambria;
+	font-size: 15px;
+
+}
+
+.phone_1 {
+	
+	float: right;
+	width: 70px;
+	margin-top: 33px;
+	position: relative;
+	font-family: cambria;
+	font-size: 15px;
+
+}
+.phone_2 {
+	
+	float: right;
+	width: 80px;
+	margin-top: 33px;
+	margin-left: -60px;
+	position: relative;
+	font-family: cambria;
+	font-size: 15px;
+
+}
+
+.h_btext
+{
+
+	color:#333333; 
+font-family:normal Verdana,Tahoma,sans-serif;
+font-size:1.267em;
+font-size-adjust:none;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+
+	margin: 1.9em auto 0.4em 0;
+	
+}
+
+#info_block {
+
+	width: 500px;
+	height: 300px;
+}
+
+.info_preline {
+
+
+	width: 1px;
+	height: 265px;
+	margin-top: 30px;
+	position: absolute;
+	background: #BFC0C0;
+}
+.info_articles {
+
+	margin-top: 30px;
+	width: 220px;
+	margin-left: 10px;
+	position: relivete;
+	line-height: 12px;
+
+}
+.info_line {
+
+	margin-top: -270px;
+	width: 1px;
+	height: 265px;
+	margin-left: 230px;
+	position: absolute;
+	background: #BFC0C0;
+}
+
+.info_cases {
+
+	margin-left: 240px;
+	margin-top: -300px;
+	line-height: 12px;
+	width: 220px;
+}
+
+.den_znak {
+
+color: #454545;
+font-size: 9px;
+line-height: 1px;
+
+}
+
+.nav_g {
+
+
+	font-size: 11px;
+	color: #454545;
+}
+
+.nav_g a:link {
+
+
+	font-size: 11px;
+	color: #1D4373;
+	text-decoration: none;
+
+}
+
+.nav_g a:visited {
+
+
+	font-size: 11px;
+	color: #1D4373;
+	text-decoration: none;
+
+}
+
+.nav_g a:hover {
+
+
+	color: #84B8FF;
+	font-size: 11px;
+	text-decoration: none;
+
+}
+/* G_Menu
+-----------------------------------------------------------------------------*/
+#g_menu {
+
+	height: 35px;
+	background: #FFFFFF;
+	width: 100%;
+	float: right;
+	margin-top: 30px;
+	
+}
+
+.logo {
+
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.link {
+
+	margin-right: 35px;
+}
+
+.l_about a:link{
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 48px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160113204417/http://pragos.ru/img/l_about.png) no-repeat left top;
+	
+}
+
+.l_about  a:visited {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 48px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160113204417/http://pragos.ru/img/l_about.png) no-repeat left top;
+	
+}
+
+.l_about a:hover {
+	
+	margin-right: 35px;
+	background-position: right top;
+	
+}
+
+.l_clients a:link{
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 73px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160113204417/http://pragos.ru/img/clients.png) no-repeat left top;
+	
+}
+
+.l_clients a:visited {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 73px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160113204417/http://pragos.ru/img/clients.png) no-repeat left top;
+	
+}
+
+.l_clients a:hover {
+	
+	margin-right: 35px;
+	background-position: right top;
+	
+}
+
+.l_journal a:link {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 69px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160113204417/http://pragos.ru/img/l_journal.png) no-repeat left top;
+	
+}
+
+.l_journal  a:visited {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 69px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160113204417/http://pragos.ru/img/l_journal.png) no-repeat left top;
+	
+}
+
+.l_journal a:hover {
+	
+	margin-right: 35px;
+	background-position: right top;
+	
+}
+
+.l_services a:link{
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 58px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160113204417/http://pragos.ru/img/l_services.png) no-repeat left top;
+	
+}
+
+.l_services  a:visited {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 58px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160113204417/http://pragos.ru/img/l_services.png) no-repeat left top;
+	
+}
+
+.l_services a:hover {
+	
+	margin-right: 35px;
+	background-position: right top;
+	
+}
+
+.s_t22 {
+	
+	float: left;
+	margin-left: -155px;
+	line-height: 14px;
+	margin-top: 120px;
+	width: 150px;
+	font-family: Times New Roman;
+	color: #282828;
+
+	
+}
+.s_t_map {
+
+		height: 1px;
+	float: left;
+	width: 15px;
+	margin-left: -180px;
+	background: #bfc0c0;
+	margin-top: 302px;
+	font-size: 1px;
+}
+.map_cases {
+
+		float: left;
+	margin-left: -150px;
+	line-height: 14px;
+	margin-top: 280px;
+
+
+
+}
+.s_t223 {
+	
+	float: left;
+	margin-left: -100px;
+	line-height: 14px;
+	margin-top: 385px;
+	width: 70px;
+	font-family: Times New Roman;
+	color: #282828;
+
+	
+}
+.nav_g_7 {
+
+	font-size: 12px;
+	color: #454545;
+	
+
+}
+
+.nav_g_7 a:link {
+
+
+	font-size: 12px;
+	color: #1D4373;
+
+}
+
+.nav_g_7 a:visited {
+
+
+	font-size: 12px;
+	color: #1D4373;
+
+}
+
+.nav_g_7 a:hover {
+
+
+	font-size: 12px;
+
+}
+
+-----------------------------------------------------------------------------*/
+.l_answerqestion a:link{
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 117px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160113204417/http://pragos.ru/img/l_answerqestion.png) no-repeat left top;
+	
+}
+
+.l_answerqestion  a:visited {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 117px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160113204417/http://pragos.ru/img/l_answerqestion.png) no-repeat left top;
+	
+}
+
+.l_answerqestion a:hover {
+	
+	margin-right: 35px;
+	background-position: right top;
+	
+}
+
+.l_contacts a:link {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 81px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160113204417/http://pragos.ru/img/l_contacts.png) no-repeat left top;
+	
+}
+
+.l_contacts a:visited {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 81px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160113204417/http://pragos.ru/img/l_contacts.png) no-repeat left top;
+	
+}
+
+.l_contacts a:hover {
+	
+	margin-right: 35px;
+	background-position: right top;
+	
+}
+
+.nav_g_2 {
+
+	font-size: 12px;
+	color: #454545;
+	margin-left: 400px;
+	font-style: italic;
+}
+
+.nav_g_2 a:link {
+
+
+	font-size: 12px;
+	color: #1D4373;
+
+}
+
+.nav_g_2 a:visited {
+
+
+	font-size: 12px;
+	color: #1D4373;
+
+}
+
+.nav_g_2 a:hover {
+
+
+	font-size: 12px;
+
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+.s_0t {
+	
+	height: 1px;
+	float: left;
+	width: 15px;
+	background: #bfc0c0;
+	margin-top: 432px;
+	
+}
+
+.s_0t1 {
+	
+	
+	float: left;
+	width: 155px;
+	margin-left: 10px;
+	margin-top: 424px;
+	font-family: Times New Roman;
+	font-size: 18px;
+	color: #282828;
+	font-style: italic;
+	
+}
+
+
+.s_t {
+	
+	height: 1px;
+	float: left;
+	width: 15px;
+	background: #bfc0c0;
+	margin-top: 102px;
+	font-size: 1px;
+}
+
+.s_t30 {
+	
+	height: 1px;
+	float: left;
+	width: 15px;
+	background: #bfc0c0;
+	margin-top: 102px;
+	
+}
+
+.s_t3 {
+	
+	
+	float: left;
+	width: 155px;
+	margin-left: 10px;
+	margin-top: 194px;
+	font-family: Times New Roman;
+	font-size: 18px;
+	color: #282828;
+	font-style: italic;
+	
+}
+
+.s_t1 {
+	
+	
+	float: left;
+	width: 155px;
+	margin-left: 10px;
+	margin-top: 94px;
+	font-family: Times New Roman;
+	font-size: 17px;
+	color: #282828;
+	
+}
+.s_t2 {
+	
+	float: left;
+	margin-left: -145px;
+	margin-top: 470px;
+	font-family: Times New Roman;
+	font-size: 20px;
+	color: #282828;
+	font-style: italic;
+	
+}
+
+
+.s_t222 {
+	
+	float: left;
+	margin-left: -165px;
+	margin-top: 300px;
+	font-family: Times New Roman;
+	font-size: 20px;
+	color: #282828;
+	font-style: italic;
+	
+}
+
+#middle {
+
+	width: 100%;
+	padding: 0 0 100px;
+	height: 620px;
+	margin-bottom: 15px;
+
+}
+#middle:after {
+
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+#container {
+
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#content {
+
+	padding: 30px 20px 0 197px;
+	width: 460px;
+	background: #FFFFFF;
+	font-family:	Verdana,sans-serif;
+	font-size:	13px;
+	font-weight:	400;
+	font-style:	normal;
+	color:	#000000;
+	text-transform:	none;
+	text-decoration:	none;
+	letter-spacing:	normal;
+	word-spacing:	normal;
+	line-height:	20.0167px;
+	text-align:	start;
+	vertical-align:	baseline;
+	direction:	ltr;
+}
+
+.h1 {
+ 
+	color: #0F630A; 
+	font-family:	Verdana,sans-serif;
+	font-size:	20px;
+	font-weight:	400;
+	font-style:	normal;
+	text-transform:	none;
+	text-decoration:	none;
+	letter-spacing:	normal;
+	word-spacing:	normal;
+	line-height:	20.0167px;
+	text-align:	start;
+	vertical-align:	baseline;
+	direction:	ltr;
+	margin-top: 30px;
+	margin-bottom:15px;
+
+}
+/* Sidebar Left
+-----------------------------------------------------------------------------*/
+.sl {
+	width: 175px;
+	float: left;
+	margin-left: -100%;
+	position: relative;
+	background: #FFFFFF;
+}
+
+
+
+/* Line
+-----------------------------------------------------------------------------*/
+.line {
+
+	float: left;
+	margin-top: 30px;
+	width: 1px;
+	height: 570px;
+	margin-left: -320px;
+	position: relative;
+	background: #BFC0C0;
+}
+
+.line_2 {
+	
+	float: left;
+	margin-top: 71px;
+	width: 1px;
+	height: 630px;
+	margin-left: -1px;
+	background: #BFC0C0;
+}
+
+/* Services
+-----------------------------------------------------------------------------*/
+#services {
+
+	height: 161px;
+	float: left;
+	margin-right: -2px;
+	margin-top: 30px;
+	width: 319px;
+	margin-left: -319px;
+
+	background: #FFFFFF;
+
+}
+
+#sr {
+
+	height: 41px;
+	float: left;
+	width: 319px;
+	background: #f3f3f3;
+	
+}
+
+.services_h1 {
+
+	font-family: Times New Roman;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-left: 10px;
+	position: relivate;
+	color: #282828;
+
+}
+
+.menu {
+
+margin: 5px 0 0 10px;
+position: relivate;
+}
+
+
+#page-wrap		    { width: 450px; margin: 0 auto; }
+
+#project-list {
+
+    background:transparent url(/web/20160113204417/http://pragos.ru/img/graypixel.png) repeat-y scroll 15px 0;
+    width:290px;
+}
+
+#project-list li {
+
+    font-size:15px;
+    margin:0 0 10px;
+    padding:0 0 0 10px;
+}
+
+#project-list li a {
+
+    background:white none repeat scroll 0 0;
+    color:#1D4373;
+    display:block;
+    padding:3px;
+	text-decoration: underline;
+}
+
+.t_link {
+
+margin-top: 55px;
+margin-left: 10px;
+
+}
+
+.top_link  a:link{
+ 
+	font:  15px Arial;
+    color:#1D4373;
+	margin-left: 13px;
+	text-decoration: underline;
+
+}
+.top_link a:visited{
+ 
+	font:  15px Arial;
+    color:#1D4373;
+	margin-left: 13px;
+	text-decoration: underline;
+
+}
+.top_link a:hover {
+ 
+    color:#84B8FF;
+	text-decoration: none;
+
+}
+
+
+
+.prj {
+
+    background:white none repeat scroll 0 0;
+    color:#333333;
+    display:block;
+    padding:3px;
+	text-decoration: none;
+
+}
+
+#project-list li a:hover {
+
+    color:#84B8FF;
+	text-decoration: none;
+}
+
+#project-list li ul li {
+
+    background:transparent url(/web/20160113204417/http://pragos.ru/img/graypixel.png) repeat-x scroll 0 8px;
+    font-size:11px;
+    margin:2px 0 4px 5px;
+    padding:0 0 0 15px;
+	text-decoration: none;
+}
+
+#project-list li ul li a {
+
+    padding:0 0 0 3px;
+	text-decoration: none;
+	 font-size:12px;
+}
+
+#project-list li ul li ul {
+
+    background:transparent url(/web/20160113204417/http://pragos.ru/img/graypixel.png) repeat-y scroll 15px 0;
+   font-size:12px;
+	text-decoration: none;
+}
+
+#project-list li ul li ul li {
+
+    margin-left:16px;
+    padding-left:10px;
+	text-decoration: none;
+	 font-size:12px;
+}
+
+#project-list li ul li ul li a{
+
+
+	 font-size:11px;
+}
+
+
+/* f_line
+-----------------------------------------------------------------------------*/
+
+#f_line {
+
+	height: 1px;
+	background: #BFC0C0;
+	margin-left: 197px;
+	width: 484px;
+	float: left;
+	position:absolute;
+	
+}
+
+/* f_line
+-----------------------------------------------------------------------------*/
+
+#footer_info {
+	width: 503px;
+	margin-top: 16px;
+	height: 40px;
+	position:absolute;
+	margin-left: 200px;
+}
+
+.copyright {
+	
+	margin-top: 24px;
+	width: 190px;
+	font-family: cambria;
+	font-size: 11px;
+	color: #454545;
+	position: relivate; 
+	float: left;
+
+}
+
+.main_text {
+
+		font-family:	Verdana,sans-serif;
+	font-size:	0.9em;
+	font-weight:	400;
+	font-style:	normal;
+	color:	#000000;
+	text-transform:	none;
+	text-decoration:	none;
+	letter-spacing:	normal;
+	word-spacing:	normal;
+	line-height:	12px;
+	text-align:	start;
+	vertical-align:	baseline;
+	direction:	ltr;
+
+}
+
+.name_arbitr {
+
+	color: #0F630A; 
+	font-family: cambria;
+	font-size:	17px;
+	font-weight:	400;
+	font-style:	normal;
+	text-transform:	none;
+	text-decoration:	none;
+	line-height:	20.0167px;
+	text-align:	start;
+	vertical-align:	baseline;
+	direction:	ltr;
+	margin-top: 30px;
+	margin-bottom:13px;
+
+}
+.f_phone {
+
+	margin-left: 25px;
+	margin-top: 22px;
+	font-family: cambria;
+	font-size: 13px;
+	position: relivate; 
+	float: left;
+	color: #454545;
+
+}
+
+.f_mail {
+
+	margin-left: 25px;
+	margin-top: 22px;
+	font-family: cambria;
+	font-size: 14px;
+	position: relivate; 
+	float: left;
+	color: #454545;
+
+}
+
+.f_checker {
+
+	margin-left: -580px;
+	margin-top: 40px;
+	position: relivate; 
+	float: left;
+
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+
+	height: 45px;
+	background: #FFFFFF;
+
+}
+
+
+
+.fot {
+	
+	height: 100%;
+	background: #f3f3f3;
+	width: 806px;
+	float: left;
+	margin-top: 5px;
+	margin-left: -5px;
+}
+

@@ -1,0 +1,2799 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 11:43:17 апр 10, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:12:44 июн 24, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+html, body, div, span, applet, object, iframe,
+ p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+ ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+:focus {
+	outline: 0;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {height: 100%}
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {margin: 0 0 18px}
+img {
+	border: none;
+}
+input {vertical-align: middle}
+
+#wrapper {
+
+	width: 1000px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+#box-table-s
+{
+	font-family: Verdana,sans-serif;
+	margin: 0 -10px 5px 5px;
+	width: 455px;
+	text-align: left;
+	border-collapse: collapse;
+	border-top: 5px solid #e3ebf2;
+	border-bottom: 5px solid #e3ebf2;
+}
+#box-table-s th
+{
+		font-size: 14px;
+	font-weight: normal;
+	padding: 8px;
+	
+	border-right: 1px solid #e3ebf2;
+	border-left: 1px solid #e3ebf2;
+	border-bottom: 1px solid #e3ebf2;
+	color: #2f2f2f;
+	font-weight: bold;
+}
+#box-table-s td
+{
+		font-size: 12px;
+	padding: 8px;
+
+		border-left: 1px solid #e3ebf2;
+	border-right: 1px solid #e3ebf2;
+	border-bottom: 1px solid #e3ebf2;
+	color: #2f2f2f;
+}
+
+
+#box-table-b
+{
+	font-family: Verdana,sans-serif;
+	margin: 20px 20px 0 20px;
+	width: 700px;
+	text-align: left;
+	border-collapse: collapse;
+	border-top: 5px solid #e3ebf2;
+	border-bottom: 5px solid #e3ebf2;
+}
+#box-table-b th
+{
+		font-size: 14px;
+	font-weight: normal;
+	padding: 8px;
+	
+	border-right: 1px solid #e3ebf2;
+	border-left: 1px solid #e3ebf2;
+	border-bottom: 1px solid #e3ebf2;
+	color: #2f2f2f;
+	font-weight: bold;
+}
+#box-table-b td
+{
+		font-size: 12px;
+	padding: 8px;
+
+		border-left: 1px solid #e3ebf2;
+	border-right: 1px solid #e3ebf2;
+	border-bottom: 1px solid #e3ebf2;
+	color: #2f2f2f;
+}
+
+#box-table-b .shmel
+{
+	background: #f1f5f8; 
+}
+.shmel
+{
+	background: #f1f5f8; 
+}
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+
+	height: 70px;
+	background: #f3f3f3;
+	width: 803px;
+	float: right;
+}
+
+#header_2 {
+
+	height: 70px;
+	background: #FFFFFF;
+	width: 803px;
+	float: right;
+}
+
+#t_line {
+
+	height: 1px;
+	background: #BFC0C0;
+	width: 150px;
+	float: right;	
+}
+
+.logo_2_2 {
+
+	float: right;
+	width: 500px;
+	margin-left: 100px;
+	
+}
+
+.adress_0 {
+	
+	float: left;
+	margin-top: 15px;
+	margin-left: 300px;
+	position: relative;
+	font-family: cambria;
+	font-size: 15px;
+	color: #333333;
+
+}
+.adress_0_2 {
+	
+	float: left;
+	margin-top: 15px;
+	margin-left: 133px;
+	position: relative;
+	font-family: cambria;
+	font-size: 15px;
+	color: #333333;
+
+}
+.adress_1 {
+	
+	float: left;
+	width: 190px;
+	margin-top: 33px;
+	position: relative;
+	font-family: cambria;
+	font-size: 15px;
+
+}
+
+.adress_1_2 {
+	
+	float: left;
+	width: 180px;
+	margin-top: 33px;
+	position: relative;
+	font-family: cambria;
+	font-size: 15px;
+
+}
+
+.phone_0 {
+	
+	float: right;
+	width: 239px;
+	margin-top: 15px;
+	margin-left: -239px;
+	position: relative;
+	font-family: cambria;
+	font-size: 15px;
+	color: #333333;
+
+}
+
+.phone_1 {
+	
+	float: right;
+	width: 70px;
+	margin-top: 33px;
+	position: relative;
+	font-family: cambria;
+	font-size: 15px;
+
+}
+
+.phone_15 {
+	
+	float: right;
+	width: 80px;
+	margin-top: 33px;
+	position: relative;
+	font-family: cambria;
+	font-size: 15px;
+
+}
+.phone_2 {
+	
+	float: right;
+	width: 80px;
+	margin-top: 33px;
+	margin-left: -60px;
+	position: relative;
+	font-family: cambria;
+	font-size: 15px;
+
+}
+
+.f_t {
+
+margin-left: 5px;
+width: 300px;
+
+}
+
+.f_grey {
+
+	color: #94999c;
+	font-size: 12px;
+
+}
+
+
+
+
+
+/* G_Menu
+-----------------------------------------------------------------------------*/
+#g_menu {
+
+	height: 35px;
+	background: #FFFFFF;
+	width: 900px;
+	float: left;
+	margin-top: 30px;
+}
+
+#g_menu_2{
+
+	height: 24px;
+	background: #FFFFFF;
+	width: 100%;
+	float: right;
+	margin-top: 41px;
+	
+}
+
+.logo {
+
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.link {
+
+	margin-right: 35px;
+
+}
+
+.link_2 {
+
+	margin-right: 35px;
+	margin-left: 200px;
+
+}
+
+
+.l_link a:link{
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 68px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160410114317/http://pragos.ru/img/l_link.png) no-repeat left top;
+	
+}
+
+.l_link  a:visited {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 68px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160410114317/http://pragos.ru/img/l_link.png) no-repeat left top;
+	
+}
+
+.l_link a:hover {
+	
+	margin-right: 35px;
+	background-position: right top;
+	
+}
+
+.about {
+
+margin-right: 35px;
+
+}
+.clients {
+
+margin-right: 35px;
+
+}
+
+.answer_question {
+
+margin-right: 35px;
+
+}
+
+.journal {
+
+margin-right: 35px;
+
+}
+
+.l_clients a:link{
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 73px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160410114317/http://pragos.ru/img/clients.png) no-repeat left top;
+	
+}
+
+.l_clients a:visited {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 73px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160410114317/http://pragos.ru/img/clients.png) no-repeat left top;
+	
+}
+
+.l_clients a:hover {
+	
+	margin-right: 35px;
+	background-position: right top;
+	
+}
+
+
+
+.l_about a:link{
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 48px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160410114317/http://pragos.ru/img/l_about.png) no-repeat left top;
+	
+}
+
+.l_about  a:visited {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 48px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160410114317/http://pragos.ru/img/l_about.png) no-repeat left top;
+	
+}
+
+.l_about a:hover {
+	
+	margin-right: 35px;
+	background-position: right top;
+	
+}
+
+.l_journal a:link {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 69px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160410114317/http://pragos.ru/img/l_journal.png) no-repeat left top;
+	
+}
+
+.l_journal  a:visited {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 69px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160410114317/http://pragos.ru/img/l_journal.png) no-repeat left top;
+	
+}
+
+.l_journal a:hover {
+	
+	margin-right: 35px;
+	background-position: right top;
+	
+}
+
+.l_services a:link{
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 58px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160410114317/http://pragos.ru/img/l_services.png) no-repeat left top;
+	
+}
+
+.l_services  a:visited {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 58px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160410114317/http://pragos.ru/img/l_services.png) no-repeat left top;
+	
+}
+
+.l_services a:hover {
+	
+	margin-right: 35px;
+	background-position: right top;
+	
+}
+
+.l_answerqestion a:link{
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 117px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160410114317/http://pragos.ru/img/l_answerqestion.png) no-repeat left top;
+	
+}
+
+.l_answerqestion  a:visited {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 117px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160410114317/http://pragos.ru/img/l_answerqestion.png) no-repeat left top;
+	
+}
+
+.l_answerqestion a:hover {
+	
+	margin-right: 35px;
+	background-position: right top;
+	
+}
+
+.l_contacts a:link {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 81px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160410114317/http://pragos.ru/img/l_contacts.png) no-repeat left top;
+	
+}
+
+.l_contacts a:visited {
+	
+	margin-right: 35px;
+	display: inline-block;
+	width: 81px;
+ 	height:17px;
+	text-decoration: none;
+	background:  url(/web/20160410114317/http://pragos.ru/img/l_contacts.png) no-repeat left top;
+	
+}
+
+.l_contacts a:hover {
+	
+	margin-right: 35px;
+	background-position: right top;
+	
+}
+
+	#d1_width {
+	
+	width: 460px;
+	
+	}
+
+   .d1, .d2, .d3 { 
+    display: block; font-size: 0; line-height: 1px; height: 1px;
+
+   }
+   .d2, .d3, .dialog-round div {
+   
+    border: 1px solid #fff; /* ѕараметры рамки */
+    border-top: none; border-bottom: none; /* ”бираем границу сверху и снизу */
+    background: #F3F3F3; /* ÷вет фона блока */
+   }
+   .d1 { margin: 0 4px; background: #fff; }
+   .d2 { margin: 0 2px; border-width: 2px; }
+   .d3 { margin: 0 1px; height: 2px; }
+   .dialog-round div { padding: 10px 15px; }
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+
+	width: 100%;
+	padding: 0 0 100px;
+	height: 600px;
+	margin-bottom: 15px;
+	background-color: #FFFFFF;
+}
+
+#container {
+
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#content {
+
+	padding: 30px 270px 0 197px;
+	width: 460px;
+	background: #FFFFFF;
+	font-family:	Verdana,sans-serif;
+	font-size:	13px;
+	font-weight:	400;
+	font-style:	normal;
+	color:	#000000;
+	text-transform:	none;
+	text-decoration:	none;
+	letter-spacing:	normal;
+	word-spacing:	normal;
+	line-height:	20.0167px;
+	text-align:	start;
+	vertical-align:	baseline;
+	direction:	ltr;
+}
+
+#c_line {
+
+	height: 110px;
+	width: 800px;
+	background: #f3f3f3;
+	position: relative;
+
+}
+
+.info_link {
+
+	background: url(/web/20160410114317/http://pragos.ru/img/info.png) no-repeat 1px 1px;
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 7px;
+	width: 218px;
+
+}
+
+div.marginbottom a {
+
+	font-size:	11px;
+	font-family:	Verdana,sans-serif;
+	color: #1D4373;
+	text-decoration: underline;
+}
+
+#services_ta {
+
+	margin-top: 10px;
+	height: 35px;
+	width: 600px;
+	margin-left: 5px;
+	position: absolute;
+
+}
+#services_rs {
+
+
+	width: 720px;
+	margin-left: 5px;
+	position: absolute;
+	margin-top: -10px; 
+
+}
+
+#question {
+
+	height: 35px;
+	width: 167px;
+	margin-left: 633px;
+	background: #F3F3F3;
+	position: absolute;
+	
+}
+
+#question_1 {
+
+	height: 55px;
+	width: 167px;
+	margin-left: 633px;
+	background: #FFFFFF;
+	position: absolute;
+
+}
+
+#pic {
+	
+	height: 10px;
+	background: url(/web/20160410114317/http://pragos.ru/img/sendmsg.png) no-repeat left 21px ;
+	padding: 25px;
+}
+
+#pic_1 {
+	
+	height: 10px;
+	background: url(/web/20160410114317/http://pragos.ru/img/article.png) no-repeat left 21px ;
+	padding: 25px 25px 25px 25px;
+
+}
+
+.question_2 {
+
+	margin-left: 20px;
+	font-size: 11px;
+	color: #1D4373;
+	margin-top: 8px;
+	height: 10px;
+
+
+}
+
+.question_2 a:link {
+
+
+	font-size: 11px;
+	color: #1D4373;
+	text-decoration: none;
+
+}
+
+.question_2 a:visited {
+
+
+	font-size: 11px;
+	color: #1D4373;
+	text-decoration: none;
+}
+
+.question_2 a:hover {
+
+
+	font-size: 11px;
+	color: #84B8FF;
+	text-decoration: none;
+}
+
+.question_5 {
+
+	margin-left: 10px;
+	font-size: 21px;
+	color: #1D4373;
+	margin-top: 33px;
+	height: 20px;
+	line-height:10px; 
+
+}
+.code {
+	font-size: 11px;
+}
+.code_1 {
+	font-size: 11px;
+	color: #1D4373;
+}
+.number_m {
+
+	font-size: 21px;
+
+}
+.time_m {
+
+	font-size: 11px;
+	color: #828282;
+
+}
+
+.question_1 {
+
+	margin-left: 20px;
+	font-size: 11px;
+	color: #1D4373;
+	margin-top: 8px;
+	height: 10px;
+	background: #F3F3F3;
+
+}
+
+.question_1 a:link {
+
+
+	font-size: 11px;
+	color: #1D4373;
+	text-decoration: none;
+
+}
+
+.question_1 a:visited {
+
+
+	font-size: 11px;
+	color: #1D4373;
+	text-decoration: none;
+}
+
+.question_1 a:hover {
+
+
+	font-size: 11px;
+	color: #84B8FF;
+	text-decoration: none;
+}
+
+.kovk {
+
+	font-family:arial;
+	color:#999;
+	font-size:40px;
+	line-height:10px; 
+	margin-right: 20px;
+	font-style: italic;
+
+}
+.kovk_2 {
+
+	font-family:arial;
+	color:#999;
+	font-size:40px;
+	line-height:10px; 
+	margin-right: 20px;
+	font-style: italic;
+	float: right;
+
+}
+.au_img {
+
+	margin-left: 30px;
+
+}
+
+.kadr_var: {
+
+background: #1d4373; 
+
+}
+.c_text {
+
+	margin-left: 50px;
+	font-size: 12px;
+	width: 660px; 
+	
+}
+
+.figure {
+ float: left; 
+ background: #BFC0C0; 
+ padding: 2px; 
+ margin: 0 16px 4px 0; 
+}
+
+.figure_1 {
+
+ background: #BFC0C0; 
+ padding: 2px; 
+ margin: 0 16px 4px 0; 
+}
+
+.gdir {
+	margin-top: 40px;
+	float: right;
+	font-style: italic;
+}
+
+
+  .example p
+    , .example ul
+    , .example ol
+    {
+        padding: 0;
+        margin: 0.5em 0;
+    }
+    .example li
+    {
+        margin: 0.5em 0 0.5em 1.3em;
+		
+    }
+    .example ul
+    {
+
+    }
+    .example ul li
+    {
+        padding: 0;
+        behavior: expression(
+            ( !this.before && parentNode && parentNode.tagName == 'UL' )
+            ?
+                ( this.before = true )
+                & ( parentNode.style.listStyleImage = 'none' )
+                & (
+                    ( this.firstChild && this.firstChild.firstChild )
+                    ?
+                        ( this.firstChild.style.marginTop = '-1.2em' )
+                        & ( this.firstChild.style.position = 'relative' )
+                    : ''
+                )
+                & ( eNOBR = document.createElement( '<nobr style="position: relative; display: block; width: 1.25em; left: -1.25em; margin: 0 -1.25em -1.2em 0;" />' ) )
+                & ( eNOBR.innerHTML = '&mdash;&nbsp;' )
+                & ( this.insertBefore( eNOBR, this.firstChild ) )
+            : ''
+        );
+    }
+    .example ul>li:before
+    {
+        content: '\2014\a0';
+        float: left;
+        margin-left: -1.75em;
+    }
+    .example ul>li>*:first-child:-moz-first-node
+    {
+        margin-top: -1.2em;
+    }
+    .example ul>li>*
+    {
+        text-indent: 0;
+    }
+
+
+.phone_d {
+
+	font-size: 20px;
+	color: #1D4373;
+}
+
+.m_next1 {
+
+
+	font-size: 12px;
+	color: #454545;
+	margin-left: 20px;
+}
+
+.m_next1 a:link {
+
+
+	font-size: 12px;
+	color: #1D4373;
+	text-decoration: none;
+
+}
+
+.m_next1 a:visited {
+
+
+	font-size: 12px;
+	color: #1D4373;
+	text-decoration: none;
+
+}
+
+.m_next1 a:hover {
+
+
+	color: #84B8FF;
+	font-size: 12px;
+	text-decoration: none;
+
+}	
+	
+
+.m_next {
+
+
+	font-size: 11px;
+	color: #454545;
+	line-height: 20px;
+
+}
+
+.m_next a:link {
+
+
+	font-size: 11px;
+	color: #1D4373;
+	text-decoration: none;
+
+}
+
+.m_next a:visited {
+
+
+	font-size: 11px;
+	color: #1D4373;
+	text-decoration: none;
+
+}
+
+.m_next a:hover {
+
+
+	color: #84B8FF;
+	font-size: 11px;
+	text-decoration: none;
+
+}
+
+.m_next_3 {
+
+
+	font-size: 11px;
+	color: #454545;
+	margin-bottom: 6px;
+
+}
+
+.m_next_3 a:link {
+
+
+	font-size: 11px;
+	color: #1D4373;
+	text-decoration: none;
+
+
+}
+
+.m_next_3 a:visited {
+
+
+	font-size: 11px;
+	color: #1D4373;
+	text-decoration: none;
+
+}
+
+.m_next_3 a:hover {
+
+
+	color: #84B8FF;
+	font-size: 11px;
+	text-decoration: none;
+
+}
+
+.m_next_4{
+
+
+	font-size: 11px;
+	color: #454545;
+	margin-bottom: 6px;
+	margin-top: 6px;
+
+}
+
+.m_next_4 a:link {
+
+
+	font-size: 11px;
+	color: #1D4373;
+	text-decoration: none;
+
+
+}
+
+.m_next_4 a:visited {
+
+
+	font-size: 11px;
+	color: #1D4373;
+	text-decoration: none;
+
+}
+
+.m_next_4 a:hover {
+
+
+	color: #84B8FF;
+	font-size: 11px;
+	text-decoration: none;
+
+}
+
+.nav_g {
+
+	margin-left: 25px;
+	font-style: italic;
+	font-size: 11px;
+	color: #454545;
+}
+
+.nav_g a:link {
+
+	font-style: italic;
+	font-size: 11px;
+	color: #1D4373;
+	text-decoration: none;
+
+}
+
+.nav_g a:visited {
+
+	font-style: italic;
+	font-size: 11px;
+	color: #1D4373;
+	text-decoration: none;
+
+}
+
+.nav_g a:hover {
+
+	font-style: italic;
+	color: #84B8FF;
+	font-size: 11px;
+	text-decoration: none;
+
+}
+
+.nav_g_4 {
+
+	font-size: 18px;
+	color: #1D4373;
+	vertical-align: top;
+	line-height: 14px;
+
+}
+
+.nav_g_4 a:link {
+
+
+	font-size: 18px;
+	color: #1D4373;
+}
+
+.nav_g_4 a:visited {
+
+
+	font-size: 18px;
+	color: #1D4373;
+}
+
+.nav_g_4 a:hover {
+
+
+	font-size: 18px;
+}
+
+.nav_g_5 {
+
+	font-size: 18px;
+	color: #1D4373;
+	vertical-align: top;
+	line-height: 14px;
+	margin-left: 5px;
+
+}
+
+.nav_g_5 a:link {
+
+
+	font-size: 18px;
+	color: #1D4373;
+}
+
+.nav_g_5 a:visited {
+
+
+	font-size: 18px;
+	color: #1D4373;
+}
+
+.nav_g_5 a:hover {
+
+
+	font-size: 18px;
+}
+
+.nav_g_8 {
+
+	font-size: 15px;
+	color: #1D4373;
+
+
+}
+
+.nav_g_6 {
+
+	font-size: 15px;
+	color: #1D4373;
+	vertical-align: top;
+	line-height: 14px;
+
+}
+
+.nav_g_6 a:link {
+
+
+	font-size: 15px;
+	color: #1D4373;
+}
+
+.nav_g_6 a:visited {
+
+
+	font-size: 15px;
+	color: #1D4373;
+}
+
+.nav_g_6 a:hover {
+
+
+	font-size: 15px;
+}
+
+.price {
+
+	color: #D60500 ;
+	font-size: 14px;
+	font-style: strong;
+
+}
+
+.den_znak {
+
+color: #454545;
+font-size: 10px;
+
+}
+
+#services_reg {
+
+	background: url(/web/20160410114317/http://pragos.ru/img/bg_reg.png) no-repeat left top;
+	position: absolute;
+	width: 700px;
+	height: 200px;
+}
+
+.t01 {
+		
+	margin-top: 10px; 
+	margin-left: 20px;
+	
+}
+.t02 	{
+	
+	margin-left: 280px;
+	margin-top: -42px;
+}
+
+.t03 {
+
+	margin-left: 500px;
+	margin-top: -41px;
+
+}
+
+	.rek_btext3 {
+
+color: #454545;
+font-size: 12px;
+
+}
+
+
+.t1 {
+		
+	margin-top: 10px; 
+	margin-left: 20px;
+	
+
+}
+.t2 	{
+	
+	margin-left: 230px;
+	margin-top: -42px;
+
+}
+
+.t3 {
+
+	margin-left: 450px;
+	margin-top: -41px;
+
+}
+
+	.rek_btext3 {
+
+color: #454545;
+font-size: 12px;
+
+}
+
+.t3_1 {
+		
+	margin-top: -40px;
+	margin-left: 650px;
+	position: absolute;
+	width: 200px;
+	
+
+
+	}
+	
+	.den_znak_1 {
+
+color: #454545;
+font-size: 12px;
+
+}
+.nav_g_7_1 {
+
+	font-size: 11px;
+	color: #454545;
+	line-height: 10px;
+	
+
+}
+	
+.nav_g_7 {
+
+	font-size: 11px;
+	color: #454545;
+	line-height: 18px;
+	
+
+}
+
+.nav_g_7 a:link {
+
+
+	font-size: 11px;
+	color: #1D4373;
+	
+}
+
+.nav_g_7 a:visited {
+
+
+	font-size: 11px;
+	color: #1D4373;
+
+}
+
+.nav_g_7 a:hover {
+
+
+	font-size: 11px;
+
+}
+.t4 {
+		
+	margin-top: 40px; 
+	margin-left: 20px;
+	
+
+}
+
+.t5 	{
+	
+	margin-left: 230px;
+	margin-top: -43px;
+
+}
+
+.t6 {
+
+	margin-left: 450px;
+	margin-top: -42px;
+
+}
+
+.t7 {
+		
+	margin-top: 15px; 
+	margin-left: 20px;
+	
+
+}
+.t8 	{
+	
+	margin-left: 250px;
+	margin-top: -42px;
+
+}
+
+.t9 {
+
+	margin-left: 480px;
+	margin-top: -42px;
+
+}
+.t10 {
+		
+	margin-top: 20px; 
+	margin-left: 20px;
+	
+
+}
+.t11{
+	
+	margin-left: 250px;
+	margin-top: -40px;
+
+}
+
+.t12 {
+		
+	margin-top: 15px; 
+	margin-left: 20px;
+	
+
+}
+.t13 	{
+	
+	margin-left: 250px;
+	margin-top: -65px;
+
+}
+
+.t14 {
+
+	margin-left: 480px;
+	margin-top: -60px;
+
+}
+.t15 {
+		
+	margin-top: 30px; 
+	margin-left: 20px;
+	
+
+}
+
+
+.nav_g_1 {
+
+	font-size: 14px;
+	color: #454545;
+	margin-bottom: 10px;
+
+}
+
+.nav_g_1 a:link {
+
+
+	font-size: 14px;
+	color: #1D4373;
+
+}
+
+.nav_g_1 a:visited {
+
+
+	font-size: 14px;
+	color: #1D4373;
+
+}
+
+.nav_g_1 a:hover {
+
+
+	font-size: 14px;
+
+}
+.zakaz {
+
+	font-size: 10px;
+	color: #0F630A;
+	text-decoration:none;
+		margin-left: 10px;
+
+}
+
+.zakaz a:link {
+
+
+	font-size: 10px;
+	color: #0F630A;
+	text-decoration:none;
+
+
+}
+
+.zakaz a:visited {
+
+
+	font-size: 10px;
+	color: #0F630A;
+
+}
+
+.zakaz a:hover {
+
+
+	font-size: 10px;
+	text-decoration: underline;
+
+}
+
+.nav_g_2 {
+
+	font-size: 11px;
+	color: #454545;
+	margin-left: 700px;
+
+}
+
+.nav_g_2 a:link {
+
+
+	font-size: 11px;
+	color: #1D4373;
+
+}
+
+.nav_g_2 a:visited {
+
+
+	font-size: 11px;
+	color: #1D4373;
+
+}
+
+.nav_g_2 a:hover {
+
+
+	font-size: 11px;
+
+}
+
+.l_d {
+
+
+
+}
+
+.name {
+
+	color: #0F630A; 
+	font-family: cambria;
+	font-size:	28px;
+	font-weight:	400;
+	font-style:	normal;
+	text-transform:	none;
+	text-decoration:	none;
+	letter-spacing:	normal;
+	word-spacing:	normal;
+	line-height:	20.0167px;
+	text-align:	start;
+	vertical-align:	baseline;
+	direction:	ltr;
+	margin-left: 25px;
+	margin-top: -8px;
+
+}
+
+.name_it {
+
+	color: #0F630A; 
+	font-family: cambria;
+	font-size:	24px;
+	font-weight:	400;
+	font-style:	normal;
+	text-transform:	none;
+	text-decoration:	none;
+	letter-spacing:	normal;
+	word-spacing:	normal;
+	line-height:	20.0167px;
+	text-align:	start;
+	vertical-align:	baseline;
+	direction:	ltr;
+	margin-left: 25px;
+	margin-top: -8px;
+
+}
+
+.name_arbitr {
+
+	color: #0F630A; 
+	font-family: cambria;
+	font-size:	21px;
+	font-weight:	400;
+	font-style:	normal;
+	text-transform:	none;
+	text-decoration:	none;
+	letter-spacing:	normal;
+	word-spacing:	normal;
+	line-height:	20.0167px;
+	text-align:	start;
+	vertical-align:	baseline;
+	direction:	ltr;
+	margin-left: 25px;
+	margin-top: -8px;
+
+}
+
+.img_arbitr {
+
+		float:right;
+	width: 167px;
+	margin-top: -106px;
+
+
+}
+
+.img_it {
+
+	float:right;
+	width: 167px;
+	margin-top: -105px;
+
+}
+
+.name_f {
+
+	color: #0F630A; 
+	font-family: cambria;
+	font-size:	28px;
+	font-weight:	400;
+	font-style:	normal;
+	text-transform:	none;
+	text-decoration:	none;
+	letter-spacing:	normal;
+	word-spacing:	normal;
+	line-height:	20.0167px;
+	text-align:	start;
+	vertical-align:	baseline;
+	direction:	ltr;
+	
+}
+  
+.rec_name {
+
+			color: #e7242c; 
+	font-family: cambria;
+	font-size:	18px;
+	font-weight:	400;
+	font-style:	normal;
+	text-transform:	none;
+	text-decoration:	none;
+	letter-spacing:	normal;
+	word-spacing:	normal;
+	line-height:	20.0167px;
+	text-align:	start;
+	vertical-align:	baseline;
+	direction:	ltr;
+
+
+}
+  
+.img {
+
+	float:right;
+	width: 167px;
+	margin-top: -111px;
+
+}
+
+.img2 {
+
+	float:right;
+	width: 167px;
+	margin-top: -92px;
+
+}
+
+.ol {
+
+	margin-left: -20px;
+
+}
+
+.text_m {
+
+	width: 785px;
+	margin-left: 5px;
+
+}
+
+.h_btext
+{
+
+	color:#333333; 
+font-family:normal Verdana,Tahoma,sans-serif;
+font-size:1.267em;
+font-size-adjust:none;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+
+	margin: 1.9em auto 0.4em 0;
+	
+}
+
+.rek_btext
+{
+
+	color:#0F630A; 
+font-family:normal Verdana,Tahoma,sans-serif;
+font-size:1.367em;
+font-size-adjust:none;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+
+
+	margin: 1.3em auto 0.9em 0;
+	
+}
+.rek_btext2
+{
+
+	color:#1D4373;
+	margin-bottom: 6px;
+	
+}
+
+.reg_OOO {
+
+	margin-left: 620px;
+	margin-top: 10px;
+	position: absolute;
+	
+
+}
+
+
+.rek_btext4
+{
+	color:#FFFFFF;
+	background: #1D4373;
+	
+}
+.rek_btext1
+{
+
+	color:#1D4373; 
+font-family:normal Verdana,Tahoma,sans-serif;
+font-size:1.367em;
+font-size-adjust:none;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+
+
+	margin: 1.3em auto 0.6em 0;
+	
+}
+
+.brd {
+
+    border: 1px solid #CCCCCC; 
+    background: #FFFFFF; 
+    padding: 20px; 
+	border-collapse: collapse dotted;
+}
+
+
+
+
+
+.rek_btext5
+{
+
+	color:#0F630A; 
+font-family:normal Verdana,Tahoma,sans-serif;
+font-size:1.367em;
+font-size-adjust:none;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+
+
+	margin: 1.3em auto 0.6em 0;
+	
+}
+.rek_audit
+{
+
+	color:#1D4373; 
+font-family:normal Verdana,Tahoma,sans-serif;
+font-size:1.367em;
+font-size-adjust:none;
+font-style:normal;
+font-variant:normal;
+font-weight:normal
+
+}
+
+.h_btext2
+{
+
+	color:#333333; 
+	font-family:normal Verdana,Tahoma,sans-serif;
+	font-size:1.367em;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	margin: 1.5em auto -1.2em 0;
+	
+}
+
+.s_text {
+
+	font-family:	Verdana,sans-serif;
+	font-size:	11px;
+	color:	#444444;
+	text-decoration:	none;
+	line-height:	13px;
+	margin-top: 5px;
+
+}
+
+.img_c {
+
+	margin: 10px 0 10px 150px;
+
+}
+.img_c1 {
+
+	margin: 10px 0 10px 80px;
+
+}
+.img_c2 {
+
+	margin: 5px 0 15px 110px;
+
+}
+.w_text {
+
+	width: 360px;
+
+}
+
+.h_gtext
+{
+
+	color:#0F630A; 
+	font-family:normal Verdana,Tahoma,sans-serif;
+	font-size:1.467em;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	margin: 2em auto 0.6em 0;
+	
+}
+
+
+
+.h_btext_2
+{
+	font-family: Tahoma; 
+	color: #525252; 
+	font-weight: normal;
+	font-size: 16px; 
+}
+
+.h_btext_3
+{
+	margin: 2em auto 0.6em 0;
+	font-weight: normal;
+	font-family: Times New Roman;
+	font-size: 20px;
+	color: #282828;
+	font-style: italic;
+
+}
+
+.h_btext_4
+{
+	margin: 1.5em auto 0.5em 0;
+	font-weight: normal;
+	font-family: Times New Roman;
+	font-size: 20px;
+	color: #282828;
+	font-style: italic;
+
+}
+	
+
+
+.g_text
+{
+
+
+	font-size: 18px;
+	color: #1D4373;
+	vertical-align: top;
+	line-height: 14px;
+	font-weight: normal;
+}
+
+.content_3 ul { margin-top: 5px; list-style:none; line-height: 15px; }
+.content_3 ul li { list-style:none; 
+padding-left:17px;  
+background:url(/web/20160410114317/http://pragos.ru/img/ul_li_3.gif) no-repeat left 8px; 	
+margin-bottom: 10px;
+margin-left: 15px;
+
+
+	}
+	
+	.content_5 ul { margin-top: 5px; list-style:none; line-height: 15px; }
+.content_5 ul li { list-style:none; 
+
+background: no-repeat left 8px; 	
+margin-bottom: 10px;
+	}
+	
+
+	.content_3_1 ul { list-style:none; }
+.content_3_1 ul li { list-style:none; 
+padding-left:17px;  
+background:url(/web/20160410114317/http://pragos.ru/img/ul_li_3.gif) no-repeat left 8px; 	
+margin-bottom: 10px ;
+margin-left: 15px;
+
+	}
+	
+	.content_3_sopr ul { list-style:none; }
+.content_3_sopr ul li { list-style:none; 
+padding-left:17px;  
+background:url(/web/20160410114317/http://pragos.ru/img/ul_li_3.gif) no-repeat left 8px; 	
+
+	}
+.content_3_sopr{
+
+	font-size: 12px;
+	color: #454545;
+	margin-bottom: 10px;
+}
+
+.content_3_sopr a:link {
+
+
+	font-size: 12px;
+	color: #1D4373;
+
+}
+
+.content_3_sopr a:visited {
+
+
+	font-size: 12px;
+	color: #1D4373;
+
+}
+
+.content_3_sopr a:hover {
+
+
+	font-size: 12px;
+
+}
+
+	
+.content_2 ul { list-style:none; }
+.content_2 ul li { list-style:none; 
+padding-left:15px;  
+background:url(/web/20160410114317/http://pragos.ru/img/ul_li_2.gif) no-repeat left 7px; 	
+margin-left: px;
+font-size: 11px;
+line-height:	1.5em;
+	}
+.content_2 ul li a:link { 
+
+font-size: 11px;
+
+	}
+	
+.tvl {
+
+	margin-left: 10px;
+
+}	
+	
+#list2 { width:100%; margin-left: -20px; }
+#list2 ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#bfe1f1;  }
+#list2 ol li { }
+#list2 ol li p { margin-top: -20px; padding: 7px 0 20px  10px; 	font-family:	Verdana,sans-serif;
+	font-size:	13px;
+	font-weight:	400;
+	font-style:	normal;
+	color:	#000000;
+	text-transform:	none;
+	text-decoration:	none;
+	letter-spacing:	normal;
+	word-spacing:	normal;
+	line-height:	20.0167px;
+	text-align:	start;
+	vertical-align:	baseline;
+	direction:	ltr; border-left: 1px solid #999; }
+#list2 ol li p em { display:block; }	
+	
+	#hor-minimalist-b_7
+{
+	font-family:	Verdana,sans-serif;
+	font-size:	11px;
+	background: #fff;
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	width:790px;
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 20px;
+}
+	
+	#hor-minimalist-b_7 td
+{
+	border-bottom: 1px solid #ccc;
+	color: #282828;
+	padding: 4px 4px;
+}
+	#hor-minimalist-b_7  tr:hover td
+{
+	background: #F3F3F3;
+}
+	
+#hor-minimalist-b
+{
+	font-family:	Verdana,sans-serif;
+	font-size:	13px;
+	font-weight:	400;
+	font-style:	normal;
+	background: #fff;
+	margin-top: 15px;
+	margin-left: 0px;
+	margin-bottom: 25px;
+	width:790px;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+#hor-minimalist-b_8
+{
+	font-family:	Verdana,sans-serif;
+	font-size:	13px;
+	font-weight:	400;
+	font-style:	normal;
+	background: #fff;
+	margin-left: 0px;
+	margin-bottom: 25px;
+	width:790px;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+#hor-minimalist-b_2
+{
+	font-size:1.03em;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.54em;
+	margin-bottom:0.83em;
+	width:780px;
+	margin-left: 1px;
+	border-collapse: collapse;
+	vertical-align: middle;
+	color: #282828;
+	text-align: center;
+	vertical-align: middle;
+}
+#hor-minimalist-b_3
+{
+	font-size:1.03em;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.54em;
+	margin-bottom:0.83em;
+	width:780px;
+	margin-left: 1px;
+	border-collapse: collapse;
+	vertical-align: middle;
+	color: #282828;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+
+#hor-minimalist-b th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #282828;
+	padding: 10px 8px;
+
+	border-bottom: 2px solid #BFC0C0;
+
+}
+
+#rec td {
+
+	border-bottom: 2px dotted #BFC0C0;
+	
+	}
+	
+	#rec tr {
+
+	height: 160px;
+	
+	}
+
+#hor-minimalist-b_2 th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #282828;
+	padding: 10px 8px;
+	text-align: center;
+	vertical-align: middle;
+	border: 2px solid #BFC0C0;
+
+}
+#hor-minimalist-b_3 th
+{
+
+	font-weight: normal;
+	color: #282828;
+	text-align: center;
+	vertical-align: middle;
+	border: 2px solid #BFC0C0;
+
+}
+
+#hor-minimalist-b_8 td
+{
+	border-bottom: 1px solid #ccc;
+	color: #282828;
+	padding: 10px 8px;
+}
+#hor-minimalist-b td
+{
+	border-bottom: 1px solid #ccc;
+	color: #282828;
+	padding: 10px 8px;
+}
+#hor-minimalist-b_2 td
+{
+	border: 1px solid #ccc;
+		border: 1px solid #ccc;
+	color: #282828;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px 8px;
+
+}
+#hor-minimalist-b_3 td
+{
+
+	border: 1px solid #ccc;
+	color: #282828;
+	text-align: center;
+	vertical-align: middle;
+
+}
+#hor-minimalist-b tbody tr:hover td
+{
+	color: #333333;
+}	
+#hor-minimalist-b_2 tbody tr:hover td
+{
+	color: #333333;
+}	
+
+#newspaper-b
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 13px;
+	width: 650px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+	border-collapse: collapse;
+	
+}
+#newspaper-b th
+{
+	padding: 0 0 10px 0;
+	font-weight: normal;
+	font-size: 14px;
+	color: #333333;
+}
+#newspaper-b tbody
+{
+	
+	background: #FFFFFF;
+}
+#newspaper-b td 
+{
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-left: 10px;
+}
+#newspaper-b td .a:link
+{
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-left: 10px;
+	color: #023F03;
+	text-decoration: underline;
+}
+#newspaper-b td .a:hover
+{
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-left: 10px;
+	color: #023F03;
+}
+
+
+
+.h1 {
+ 
+	color: #0F630A; 
+	font-family:	Verdana,sans-serif;
+	font-size:	20px;
+	font-weight:	400;
+	font-style:	normal;
+	text-transform:	none;
+	text-decoration:	none;
+	letter-spacing:	normal;
+	word-spacing:	normal;
+	line-height:	20.0167px;
+	text-align:	start;
+	vertical-align:	baseline;
+	direction:	ltr;
+	margin-top: 30px;
+	margin-bottom:15px;
+
+}
+/* Sidebar Left
+-----------------------------------------------------------------------------*/
+.sl {
+	width: 175px;
+	float: left;
+	margin-left: -100%;
+	position: relative;
+	background: #FFFFFF;
+}
+
+.opera_typit {
+
+	width: 100%;
+	height: 50px;
+
+}
+
+/* Line
+-----------------------------------------------------------------------------*/
+.line {
+
+	float: left;
+	margin-top: 30px;
+	width: 1px;
+	height: 550px;
+	margin-left: -320px;
+	position: relative;
+	background: #BFC0C0;
+}
+
+.line_2 {
+	
+	float: left;
+	margin-top: 71px;
+	width: 1px;
+	height: 609px;
+	margin-left: -1px;
+	position: relative;
+	background: #BFC0C0;
+}
+
+/* Services
+-----------------------------------------------------------------------------*/
+#services {
+
+	height: 161px;
+	float: left;
+	margin-right: -2px;
+	margin-top: 30px;
+	width: 319px;
+	margin-left: -319px;
+	position: relative;
+	background: #FFFFFF;
+
+}
+
+#services_2 {
+
+	height: 436px;
+	float: left;
+	width: 169px;
+	margin-top: 35px;
+	position: relative;
+	background: url (/web/20160410114317/http://pragos.ru/img/bg.png);
+
+}
+
+#sr {
+
+	height: 41px;
+	float: left;
+	width: 170px;
+	background: #f3f3f3;
+	margin-left: 5px
+	
+}
+
+.s_t {
+	
+	height: 1px;
+	float: left;
+	width: 15px;
+	background: #bfc0c0;
+	font-size: 1px;
+	
+}
+
+.s_t_1 {
+	
+	height: 10px;
+	float: left;
+	width: 1px;
+	background: #bfc0c0;
+	font-size: 1px;
+	
+}
+
+.s_f_1 {
+	
+	height: 5px;
+	float: left;
+	width: 1px;
+	background: #bfc0c0;
+	margin-left: 5px;
+	font-size: 1px;
+	
+}
+
+.s_f {
+	
+	height: 1px;
+	float: left;
+	width: 16px;
+	background: #bfc0c0;
+	margin-left: -16px;
+	margin-top: 4px;
+	font-size: 1px;
+}
+
+.services_h1 {
+
+	font-family: Times New Roman;
+	font-size: 20px;
+	margin-top: -10px;
+	margin-left: 25px;
+	position: relivate;
+	color: #282828;
+	font-style: italic;
+	margin-bottom: 15px;
+
+}
+
+.zgl {
+
+	color: #0F630A; 
+	font-family:	Verdana,sans-serif;
+	font-size:	22px;
+	font-weight:	400;
+	font-style:	normal;
+	text-decoration:	none;
+	margin: 0 0 0 0 ;
+
+
+	
+}
+
+.zgl a:link {
+
+
+	color: #0F630A; 
+	font-family:	Verdana,sans-serif;
+	font-size:	20px;
+	font-weight:	400;
+	font-style:	normal;
+	text-decoration:	none;
+
+
+}
+
+.zgl a:visited {
+
+	color: #0F630A; 
+	font-family:	Verdana,sans-serif;
+	font-size:	20px;
+	font-weight:	400;
+	font-style:	normal;
+	text-decoration:	none;
+
+
+
+}
+
+.zgl a:hover {
+
+	color: #0F630A; 
+	font-family:	Verdana,sans-serif;
+	font-size:	20px;
+		font-weight:	400;
+	font-style:	normal;
+	text-decoration:	none;
+
+
+
+}
+
+.menu {
+
+margin: 2px 0 0 10px;
+
+}
+
+#page-wrap		    { width: 450px; margin: 0 auto; }
+
+#project-list {
+
+    background:transparent url(/web/20160410114317/http://pragos.ru/img/graypixel.png) repeat-y scroll 5px 0;
+    width:185px;
+}
+
+#project-list_1 {
+
+    background:transparent url(/web/20160410114317/http://pragos.ru/img/graypixel.png) repeat-y scroll 5px 0;
+    width:185px;
+}
+
+.yz {
+margin-top: 10px;
+line-height: 1em;
+margin-bottom: 10px;
+
+}
+.yz_1 {
+
+line-height: 1em;
+
+
+}
+
+.yz2 {
+margin-top: 5px;
+
+}
+.yz3 {
+margin-top: 3px;
+line-height: 1em;
+
+}
+.yz1 {
+
+line-height: 1em;
+padding: 5px 5px 5px 5px ;
+
+}
+.prj {
+
+    background:white none repeat scroll 0 0;
+    color:#333333;
+    display:block;
+    padding:3px;
+	text-decoration: none;
+
+}
+
+
+.t_link {
+
+margin-top: 30px;
+margin-left:13px;
+
+}
+
+.top_link {
+
+	font:  15px Arial;
+
+	font-style: italic;
+
+}
+
+.top_link  a:link{
+ 
+	font:  15px Arial;
+    color:#1D4373;
+	text-decoration: underline;
+	font-style: italic;
+
+}
+.top_link a:visited{
+ 
+	font:  15px Arial;
+    color:#1D4373;
+	text-decoration: underline;
+	font-style: italic;
+
+}
+.top_link a:hover {
+ 
+    color:#84B8FF;
+	text-decoration: none;
+font-style: italic;
+}
+
+
+
+#project-list li {
+	
+    font-size:15px;
+    padding: 5px 0 0 0;
+	font-style: italic;
+}
+
+.p_ll {
+
+    background:white none repeat scroll 0 0;
+    display:block;
+    padding: 0 0 0 3px;
+
+
+}
+.p_ll21 {
+
+    background:white none repeat scroll 0 0;
+    display:block;
+    padding: 4px 0 6px 5px;
+	line-height: 1em;
+
+}
+.p_ll2 {
+
+    background:white none repeat scroll 0 0;
+    display:block;
+    padding: 2px 0 5px 5px;
+	line-height: 1em;
+
+}
+.p_ll4 {
+
+    background:white none repeat scroll 0 0;
+    display:block;
+    padding: 4px 0 6px 5px;
+	line-height: 1em;
+
+}
+.p_ll3 {
+
+    background:white none repeat scroll 0 0;
+    display:block;
+	margin-left: 3px;
+	line-height: 1em;
+	margin-top: 10px;
+	line-height: 1em;
+	margin-bottom: 10px;
+
+}
+
+
+
+#project-list li a {
+
+    background:white none repeat scroll 0 0;
+    color:#1D4373;
+    display:block;
+    padding: 2px 0 5px 5px;
+	text-decoration: underline;
+	
+}
+
+#project-list li a:hover {
+
+    color:#84B8FF;
+	text-decoration: none;
+	
+}
+
+#project-list li ul li {
+
+    background:transparent url(/web/20160410114317/http://pragos.ru/img/graypixel.png) repeat-x scroll 0 8px;
+    font-size: 11px;
+    margin:2px 0 0px 5px;
+    padding:0 0 0 15px;
+	text-decoration: none;
+	font-style: normal;
+}
+
+#project-list li ul li a {
+
+    padding:0 0 0 3px;
+	text-decoration: none;
+}
+
+#project-list li ul li ul {
+
+    background:transparent url(/web/20160410114317/http://pragos.ru/img/graypixel.png) repeat-y scroll 15px 0;
+  
+	text-decoration: none;
+}
+
+#project-list li ul li ul li {
+
+    margin-left:16px;
+    padding-left:10px;
+	text-decoration: none;
+	font-size: 9px;
+}
+
+
+/* menu_2
+-----------------------------------------------------------------------------*/
+
+
+#page-wrap_2		    { width: 450px; margin: 0 auto; }
+
+#project-list_2 {
+
+    background:transparent url(/web/20160410114317/http://pragos.ru/img/graypixel.png) repeat-y scroll 5px 0;
+    width:185px;
+}
+
+#project-list li {
+	
+    font-size:15px;
+    padding: 5px 0 0 0;
+	font-style: italic;
+}
+
+
+
+#project-list_2 li {
+
+    font-size:11px;
+    margin: 5px -5px 0 0;
+ 
+}
+
+#project-list_2 li a {
+
+    background:white none repeat scroll 0 0;
+    color:#1D4373;
+    display:block;
+    padding:3px;
+	text-decoration: underline;
+}
+
+
+.prj_2 {
+
+    background:white none repeat scroll 0 0;
+    color:#333333;
+    display:block;
+    padding:3px;
+	text-decoration: none;
+
+}
+
+#project-list_2 li a:hover {
+
+    color:#84B8FF;
+	text-decoration: none;
+}
+
+#project-list_2 li ul li {
+
+    background:transparent url(/web/20160410114317/http://pragos.ru/img/graypixel.png) repeat-x scroll 0 8px;
+    font-size:11px;
+    margin:2px 0 0px 5px;
+    padding:0 0 0 15px;
+	text-decoration: none;
+}
+
+#project-list_2 li ul li a {
+
+    padding:0 0 0 3px;
+	text-decoration: none;
+}
+
+#project-list_2 li ul li ul {
+
+    background:transparent url(/web/20160410114317/http://pragos.ru/img/graypixel.png) repeat-y scroll 15px 0;
+  
+	text-decoration: none;
+}
+
+#project-list_2 li ul li ul li {
+
+    margin-left:16px;
+    padding-left:10px;
+	text-decoration: none;
+}
+
+.tbl {
+
+	 font-size:12px;
+
+}
+
+/* f_line
+-----------------------------------------------------------------------------*/
+
+#f_line {
+
+	height: 2px;
+	background: #BFC0C0;
+	width: 803px;
+	float: right;
+	
+}
+
+#f_line1 {
+
+	height: 1px;
+	background: #BFC0C0;
+	width: 803px;
+	float: right;
+	
+}
+
+/* f_line
+-----------------------------------------------------------------------------*/
+
+#footer_info {
+
+	height: 100px;
+	background: #FFFFFF;
+	width: 803px;
+	float: right;
+}
+
+.copyright {
+	
+	margin-top: 30px;
+	width: 190px;
+	font-family: cambria;
+	font-size: 11px;
+	color: #454545;
+	position: relivate; 
+	float: left;
+
+}
+
+.f_phone {
+
+	margin-left: 40px;
+	margin-top: 22px;
+	font-family: cambria;
+	font-size: 13px;
+	position: relivate; 
+	float: left;
+	color: #454545;
+
+}
+
+.f_mail {
+
+	margin-left: 40px;
+	margin-top: 22px;
+	font-family: cambria;
+	font-size: 14px;
+	position: relivate; 
+	float: left;
+	color: #454545;
+
+}
+
+.f_checker {
+
+	margin-left: 150px;
+	margin-top: 40px;
+	position: relivate; 
+	float: left;
+
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+
+	width: 730px;
+	margin: -5% 268px 0;
+	height: 4%;
+	background: #FFFFFF;
+}
+
+.fot {
+
+	height: 100%;
+	background: #f3f3f3;
+	width: 803px;
+	float: right;
+}
+
